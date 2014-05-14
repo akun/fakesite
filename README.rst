@@ -1,5 +1,5 @@
 fakesite
-===============================
+========
 
 .. image:: https://travis-ci.org/akun/fakesite.png
    :target: https://travis-ci.org/akun/fakesite
@@ -13,7 +13,9 @@ fakesite
    :target: https://coveralls.io/r/akun/fakesite
    :alt: Coverage Status
 
-A fake site for spider test envirionment using HTTPretty
+**DEVELOPING, COMING SOON..**
+
+A fake site for spider testing
 
 * Free software: MIT license
 * Documentation: http://fakesite.rtfd.org/
@@ -21,7 +23,31 @@ A fake site for spider test envirionment using HTTPretty
 Features
 --------
 
-TODO
+* [ ] HTML Tag
+* [ ] Static Page
+* [ ] Dynamic Page
+* [ ] HTTP Status Code
+* [ ] File Size
+* [ ] AJAX
+* [ ] App Authorize & Web Server Authorize
+* [ ] Depth & Recursion & A lot of Pages
+* [ ] Form Method & HTTP Method
+* [ ] Island URI & Fxcked URI
+* [ ] Headers
+
+  + [ ] Accept
+  + [ ] Accept-Encoding
+  + [ ] Accept-Language
+  + [ ] Cache-Control
+  + [ ] Connection
+  + [ ] Content-Length
+  + [ ] Cookie
+  + [ ] Etag
+  + [ ] Host
+  + [ ] Referer
+  + [ ] User-Agent
+  + [ ] Server
+  + [ ] Content-Type
 
 Install
 -------
@@ -48,7 +74,12 @@ Changelog
 Contributing
 ------------
 
-TODO
+::
+
+   git clone git@github.com:akun/fakesite.git
+   cd fakesite
+   virtualenv .
+   make
 
 Credits
 -------

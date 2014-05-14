@@ -14,7 +14,7 @@ from fakesite import VERSION
 setup(
     name='fakesite',
     version=VERSION,
-    description='A fake site for spider test envirionment using HTTPretty',
+    description='A fake site for spider testing',
     author='akun',
     author_email='6awkun@gmail.com',
     license='MIT License',
