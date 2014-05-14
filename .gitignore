@@ -1,0 +1,12 @@
+*.egg-info
+*.py[cod]
+*.swp
+.coverage
+.tox
+bin
+build
+dist
+docs/_build
+include
+lib
+sdist
