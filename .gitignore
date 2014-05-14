@@ -9,4 +9,6 @@ dist
 docs/_build
 include
 lib
+local
+man
 sdist
