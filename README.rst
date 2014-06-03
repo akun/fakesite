@@ -23,13 +23,10 @@ A fake site for spider testing
 Features
 --------
 
-* [ ] HTML Tag
 * [ ] Static Page
 * [ ] Dynamic Page
-* [ ] HTTP Status Code
 * [ ] File Size
 * [ ] AJAX
-* [ ] App Authorize & Web Server Authorize
 * [ ] Depth & Recursion & A lot of Pages
 * [ ] Form Method & HTTP Method
 * [ ] Island URI & Fxcked URI
@@ -48,6 +45,53 @@ Features
   + [ ] User-Agent
   + [ ] Server
   + [ ] Content-Type
+  + [ ] Connection
+
+* [ ] HTTP Status Code
+
+  + [ ] 20x
+  + [ ] 30x
+  + [ ] 40x
+  + [ ] 50x
+
+* [ ] Redirection
+
+  + [ ] Server Side(30x in HTTP Status Code)
+  + [ ] Client Side
+
+    - [ ] JavaScript
+    - [ ] Meta
+
+  + [ ] Multi-Redirection
+
+* [ ] Authorization(Web App Authorization & Web Server Authorization)
+
+  + [ ] HTTP Authorization
+
+    - [ ] Basic
+    - [ ] Digest
+    - [ ] NTLM
+
+  + [ ] Cookie
+  + [ ] Login Form
+  + [ ] OAuth / OAuth2
+  + [ ] Session in URL
+  + [ ] Expired Time
+
+* [ ] HTML Tag
+
+  + a
+  + form
+  + img
+  + link(CSS etc.)
+  + script(JavaScript etc.)
+  + inner CSS(background etc.)
+
+* [ ] Other File
+
+  + [ ] CSS
+  + [ ] JavaScript
+  + [ ] Flash
 
 Install
 -------
