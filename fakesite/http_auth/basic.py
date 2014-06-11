@@ -52,7 +52,7 @@ def basic_auth(realm, auth_func):
     return basic_auth_decorator
 
 
-class BasicHandler(BasicAuthMixin, tornado.web.RequestHandler):
+class BasicAuthHandler(BasicAuthMixin, tornado.web.RequestHandler):
 
     def head(self):
         self.get()

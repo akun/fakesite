@@ -5,7 +5,7 @@ from tornado.options import define, options, parse_command_line
 import tornado.ioloop
 import tornado.web
 
-from fakesite.http_auth.basic import BasicHandler
+from fakesite.http_auth.basic import BasicAuthHandler
 from fakesite.http_auth.digest import DigestAuthHandler
 
 
@@ -15,7 +15,7 @@ define('debug', default=False, help='run on the debug mode', type=bool)
 
 def get_application():
     application = tornado.web.Application([
-        (r'/http_auth/basic', BasicHandler),
+        (r'/http_auth/basic', BasicAuthHandler),
         (r'/http_auth/digest', DigestAuthHandler),
     ], debug=options.debug)
     return application
