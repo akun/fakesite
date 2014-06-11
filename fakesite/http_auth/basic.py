@@ -23,7 +23,7 @@ class BasicAuthMixin(object):
         try:
             auth = self.request.headers.get('Authorization')
 
-            if auth == None:
+            if auth is None:
                 return self.__request_auth(realm)
             if not auth.startswith('Basic '):
                 return self.__request_auth(realm)
