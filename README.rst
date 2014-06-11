@@ -69,7 +69,7 @@ Features
   + [ ] HTTP Authorization
 
     - [o] Basic
-    - [ ] Digest
+    - [o] Digest
     - [ ] NTLM
 
   + [ ] Cookie
@@ -134,7 +134,7 @@ people(in no particular order):
 
 Add your name and email, detail in: https://github.com/akun/fakesite/graphs/contributors
 
-projects:
+projects(in no particular order):
 
 * https://github.com/ysimonson/oz/
 
