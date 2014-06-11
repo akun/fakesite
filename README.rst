@@ -68,7 +68,7 @@ Features
 
   + [ ] HTTP Authorization
 
-    - [ ] Basic
+    - [o] Basic
     - [ ] Digest
     - [ ] NTLM
 
@@ -128,9 +128,15 @@ Contributing
 Credits
 -------
 
+people(in no particular order):
+
 * akun <6awkun@gmail.com>
 
 Add your name and email, detail in: https://github.com/akun/fakesite/graphs/contributors
+
+projects:
+
+* https://github.com/ysimonson/oz/
 
 .. image:: https://d2weczhvl823v0.cloudfront.net/akun/fakesite/trend.png
    :alt: Bitdeli badge
