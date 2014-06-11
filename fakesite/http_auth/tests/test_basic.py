@@ -15,7 +15,7 @@ class BasicHandlerTestCase(TestCase):
         response = self.fetch('/http_auth/basic', auth_username='admin',
             auth_password='admin')
         self.assertEqual(200, response.code)
-        self.assertEqual('Hello! I am HTTP Authorization(Basic)',
+        self.assertEqual(b'Hello! I am HTTP Authorization(Basic)',
             response.body)
 
     def test_handler_if_without_auth(self):

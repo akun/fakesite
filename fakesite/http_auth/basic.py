@@ -28,8 +28,8 @@ class BasicAuthMixin(object):
             if not auth.startswith('Basic '):
                 return self.__request_auth(realm)
 
-            auth_decoded = base64.decodestring(auth[6:])
-            username, password = auth_decoded.split(':', 1)
+            auth_decoded = base64.decodestring(auth[6:].encode('utf-8'))
+            username, password = auth_decoded.split(b':', 1)
 
             if auth_func(self, realm, username, password):
                 self._current_user = username
@@ -64,7 +64,7 @@ class BasicAuthHandler(BasicAuthMixin, tornado.web.RequestHandler):
 
 
 def auth_callback(request, realm, username, password):
-    if username == 'admin' and password == 'admin':
+    if username == b'admin' and password == b'admin':
         request.user_id = 1
         return True
 
