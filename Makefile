@@ -37,7 +37,7 @@ htmlci:
 	curl -X POST http://readthedocs.org/build/fakesite
 
 run:
-	export PYTHONPATH=`pwd` && python $(SRC_DIR)/fake_server.py
+	export PYTHONPATH=`pwd` && python $(SRC_DIR)/fake_server.py --debug
 
 clean:
 	rm -rf *.egg-info
