@@ -20,7 +20,7 @@ class DigestHandlerTestCase(TestCase):
         response = self.fetch('/http_auth/digest', auth_mode='digest',
             auth_username='foo', auth_password='bar')
         self.assertEqual(200, response.code)
-        self.assertEqual(response.body, 'ok')
+        self.assertEqual(response.body, b'ok')
 
     def test_handler_if_without_auth(self):
         response = self.fetch('/http_auth/digest', auth_mode='digest')
